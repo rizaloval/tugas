@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* ── HEADER ── */
+header {
+  background-color: #050505;
+  color: rgb(248, 247, 245);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: rgb(252, 252, 244);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ── HERO ── */
+.hero {
+  background-color: #fffafa;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #191a19;
+}
+
+.hero a {
+  background-color: #e44d26;
+  color: white;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.hero a:hover {
+  background-color: #c73e1d;
+}
+
+/* ── PRODUK UNGGULAN ── */
+#produk {
+  padding: 50px 30px;
+  background: #fff;
+}
+
+#produk h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.produk-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.produk-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.produk-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+.produk-card .info {
+  padding: 15px;
+}
+
+.produk-card .nama {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.produk-card .harga {
+  color: #e44d26;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.produk-card button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.produk-card button:hover {
+  background-color: #e44d26;
+}
+
+/* ── FOOTER ── */
+footer {
+  background-color: #222;
+  color: #fefefe;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
